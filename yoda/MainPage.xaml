@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="Yoda.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Yoda"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <TextBox x:Name="textBox" Margin="32,81,118,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="31,33,0,0" TextWrapping="Wrap" Text="Yoda" VerticalAlignment="Top" FontSize="36"/>
+        <Button x:Name="buttonGo" Content="Yoda!" HorizontalAlignment="Right" Margin="0,78,33,0" VerticalAlignment="Top" Width="80" Click="buttonGo_Click"/>
+        <TextBlock x:Name="textOut" Margin="32,134,103,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14" FontFamily="Segoe UI" Height="322"/>
+
+    </Grid>
+</Page>
